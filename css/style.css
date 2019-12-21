@@ -86,6 +86,10 @@ a:hover{
     transition: .2s;
 }
 
+.main__menu-el a:hover{
+    color: #000;
+}
+
 .main__info{
     margin-top: 10vh;
 }
