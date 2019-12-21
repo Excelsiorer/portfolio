@@ -146,6 +146,10 @@ a:hover{
     color: #000;
 }
 
+.instalations__submenu-btn--active{
+    border-bottom: 1px solid;
+}
+
 .instalations__separator{
     width: 100px;
     height: .3vh;

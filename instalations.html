@@ -11,14 +11,16 @@
 </head>
 <body>
     <main class="container instalations">
+        
         <div class="row">
             <div class="position-fixed">
                 <ul class="instalations__menu">
                     <li class="instalations__menu-el">
+                        <div id="showScroll"></div>
                         <a href="#menu__saintp" class="instalations__menu-btn instalations__menu-btn--active">Saint.P</a>
                         <ul class="instalations__submenu">
                             <li class="instalations__submenu-el">
-                                <a href="#menu__saintp-performance" class="instalations__submenu-btn">Performances</a>
+                                <a href="#menu__saintp-performance" class="instalations__submenu-btn instalations__submenu-btn--active">Performances</a>
                             </li>
                             <li class="instalations__submenu-el">
                                 <a href="#menu__saintp-paintings" class="instalations__submenu-btn">Paintings</a>
@@ -29,17 +31,17 @@
                         </ul>
                     </li>
                     <li class="instalations__menu-el">
-                        <a href="#" class="instalations__menu-btn">Moscow</a>
+                        <a href="#menu__moscow" class="instalations__menu-btn">Moscow</a>
                         
                         <ul class="instalations__submenu">
                             <li class="instalations__submenu-el">
-                                <a href="#" class="instalations__submenu-btn">Performances</a>
+                                <a href="#menu__moscow-performance" class="instalations__submenu-btn">Performances</a>
                             </li>
                             <li class="instalations__submenu-el">
-                                <a href="#" class="instalations__submenu-btn">Paintings</a>
+                                <a href="#menu__moscow-paintings" class="instalations__submenu-btn">Paintings</a>
                             </li>
                             <li class="instalations__submenu-el">
-                                <a href="#" class="instalations__submenu-btn">Videoprojects</a>
+                                <a href="#menu__moscow-videoprojects" class="instalations__submenu-btn">Videoprojects</a>
                             </li>
                         </ul>
                     </li>
@@ -77,7 +79,8 @@
                 </ul>
             </div>
             <div class="col-9 offset-3 instalations__work">
-                <section id="menu__saintp">
+                <section id="menu__saintp" class="instalations__section">
+                    
                     <h2 class="instalations__title" id="menu__saintp-performance">Performances</h2>
                     <div class="instalations__works">
                         <a href="#" class="work col-4">
@@ -121,9 +124,50 @@
                             </div>
                         </a>
                     </div>
-                </section>
-                <section id="menu__saintp-paintings">
-                    <h2 class="instalations__title">Paintings</h2>
+                    <h2 class="instalations__title" id="menu__saintp-paintings">Paintings</h2>
+                    <div class="instalations__works">
+                        <a href="#" class="work col-4">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                        <a href="#" class="work col-7">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                        <a href="#" class="work col-4">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                        <a href="#" class="work col-7">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                    </div>
+                    <h2 class="instalations__title" id="menu__saintp-videoprojects">Videoprojects</h2>
                     <div class="instalations__works">
                         <a href="#" class="work col-4">
                             <img class="work_bg" src="img/instalations1.png">
@@ -167,8 +211,143 @@
                         </a>
                     </div>
                 </section>
-            </div>
+                                
+                <section id="menu__moscow" class="instalations__section">
+                    <h2 class="instalations__title" id="menu__moscow-performance">Performances</h2>
+                    <div class="instalations__works">
+                        <a href="#" class="work col-4">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                        <a href="#" class="work col-7">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                        <a href="#" class="work col-4">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                        <a href="#" class="work col-7">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                    </div>
+                    <h2 class="instalations__title" id="menu__moscow-paintings">Paintings</h2>
+                    <div class="instalations__works">
+                        <a href="#" class="work col-4">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                        <a href="#" class="work col-7">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                        <a href="#" class="work col-4">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                        <a href="#" class="work col-7">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                    </div>
+                    <h2 class="instalations__title" id="menu__moscow-videoprojects">Videoprojects</h2>
+                    <div class="instalations__works">
+                        <a href="#" class="work col-4">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                        <a href="#" class="work col-7">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                        <a href="#" class="work col-4">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                        <a href="#" class="work col-7">
+                            <img class="work_bg" src="img/instalations1.png">
+                            <div class="work__body">
+                                <header class="work__title">Mitya na plyaje</header>
+                                <footer class="work__footer">
+                                    <div class="work__country">Spain</div>
+                                    <div class="work__year">2019</div>
+                                </footer>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+
+                
         </div>
     </main>
+    <script src="js/jqeury.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
