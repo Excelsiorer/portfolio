@@ -1,3 +1,5 @@
+/* Слежка за скроллом на странице портфолио */
+
 document.addEventListener("DOMContentLoaded", function() {
     (function() {
         var section = document.querySelectorAll(".instalations__title");
@@ -40,6 +42,8 @@ document.addEventListener("DOMContentLoaded", function() {
     })();
 });
 
+/*Плавная прокрутка к якорям*/
+
 $('a').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
@@ -47,4 +51,14 @@ $('a').click(function(){
     return false;
 });
 
+/*Сдайдер*/
+$('.project__gallery').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    // arrows: false,
+    dots: false,
+    nextArrow: '.project__description-next',
+    prevArrow: '',
+});
   
